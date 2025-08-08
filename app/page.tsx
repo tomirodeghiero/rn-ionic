@@ -799,9 +799,14 @@ export default function ITMovilEvaluation() {
           animation: fadeIn 0.6s ease-out;
         }
       `}</style>
-      <p className="flex items-center justify-center mt-5 gap-2 text-center text-gray-800 font-open-sans">
-        Desarrollado por
-        <span className="font-medium">💻 Tomás Rodeghiero.</span>
+      <p className="flex flex-col items-center justify-center mt-5 text-center text-gray-800 font-open-sans">
+        <span className="font-semibold">
+          Oliver <sup>®</sup> — Comparativa React Native & Ionic
+        </span>
+        <span>
+          Desarrollado por{" "}
+          <span className="font-medium">💻 Tomás Rodeghiero</span> — 2025
+        </span>
       </p>
     </div>
   );
