@@ -45,7 +45,7 @@ const slides: Slide[] = [
     gradient: "from-transparent to-transparent",
     headerHidden: true,
     content: (
-      <div className="mt-2">
+      <div className="h-[87.5vh] flex items-center justify-center">
         <HeaderHero />
       </div>
     ),

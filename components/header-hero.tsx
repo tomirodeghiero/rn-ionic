@@ -5,7 +5,7 @@ import { Smartphone, Building2 } from "lucide-react";
 
 export default function HeaderHero() {
   return (
-    <header className="text-center mb-0 relative min-h-screen justify-center items-center flex-col bg-red">
+    <header className="text-center">
       <div className="flex justify-center">
         <img
           src={"/Logocolor.png"}
@@ -22,12 +22,12 @@ export default function HeaderHero() {
       </div>
 
       {/* Main title */}
-      <div className="relative mt-6">
+      <div className="relative mt-6 w-[40vw] h-[50vh]">
         {/* Card container */}
         <div className="relative mx-auto max-w-4xl rounded-3xl border border-ink/10 px-6 py-8 md:px-10 md:py-10 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.25)]">
           <div className="flex justify-center mb-6">
             <div className="relative">
-              <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-brand grid place-items-center shadow-md rotate-3 md:hover:rotate-0 transition-transform">
+              <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl grid place-items-center shadow-md rotate-3 md:hover:rotate-0 transition-transform">
                 <Smartphone className="w-8 h-8 md:w-10 md:h-10 text-black" />
               </div>
               <div className="absolute -top-2 -right-2 w-7 h-7 rounded-full text-ink text-xs font-extrabold grid place-items-center shadow">
@@ -36,7 +36,7 @@ export default function HeaderHero() {
             </div>
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight text-ink">
+          <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight text-ink ">
             <span className="text-ink">IT Móvil</span>
             <span className="ml-3 md:ml-4 text-brand">3.0</span>
           </h1>
