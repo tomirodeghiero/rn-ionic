@@ -546,16 +546,6 @@ const slides: Slide[] = [
             ))}
           </div>
         </div>
-
-        <div className="bg-ink/5 p-6 rounded-2xl border border-ink/10">
-          <h3 className="font-bold text-ink mb-2">Consideración adicional</h3>
-          <p className="text-ink/80">
-            <strong>Ionic</strong> podría considerarse para{" "}
-            <strong>módulos internos simples</strong> o{" "}
-            <strong>prototipos rápidos</strong> si el equipo ya domina stack
-            web.
-          </p>
-        </div>
       </div>
     ),
   },
