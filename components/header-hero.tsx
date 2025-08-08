@@ -64,7 +64,7 @@ export default function HeaderHero() {
 
       <p className="flex flex-col items-center justify-center mt-5 text-center text-gray-800 font-open-sans">
         <span className="font-semibold">
-          Oliver <sup>®</sup> — Comparativa React Native & Ionic
+          Oliver <sup>®</sup> | Comparativa: React Native & Ionic
         </span>
         <span>
           Desarrollado por{" "}

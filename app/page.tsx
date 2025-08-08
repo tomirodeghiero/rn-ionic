@@ -1,13 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
-  ChevronLeft,
-  ChevronRight,
   Target,
   Settings,
   CheckCircle,
@@ -16,13 +12,10 @@ import {
   BarChart3,
   Brain,
   ArrowRight,
-  Smartphone,
-  Code,
   Zap,
   Users,
   Wrench,
   TrendingUp,
-  Star,
 } from "lucide-react";
 import HeaderHero from "@/components/header-hero";
 
@@ -655,9 +648,9 @@ const slides: Slide[] = [
         <div className="mt-8 p-6 bg-brand/5 rounded-2xl border border-brand/20 text-ink">
           <h3 className="font-bold mb-2">Resultado esperado</h3>
           <p>
-            <strong>Oliver</strong> contará con una app móvil robusta, escalable
-            y de alto rendimiento que eleva la productividad y la experiencia de
-            usuario empresarial.
+            <strong>Oliver</strong> contará con ITMovil 3.0, una app móvil de
+            robusta, escalable y de alto rendimiento que eleva la productividad
+            y la experiencia de usuario empresarial.
           </p>
         </div>
       </div>
@@ -683,15 +676,6 @@ export default function ITMovilEvaluation() {
     setIsAnimating(true);
     setTimeout(() => {
       setCurrentSlide((p) => (p - 1 + slides.length) % slides.length);
-      setIsAnimating(false);
-    }, 150);
-  };
-
-  const goToSlide = (index: number) => {
-    if (isAnimating || index === currentSlide) return;
-    setIsAnimating(true);
-    setTimeout(() => {
-      setCurrentSlide(index);
       setIsAnimating(false);
     }, 150);
   };
@@ -801,7 +785,7 @@ export default function ITMovilEvaluation() {
       `}</style>
       <p className="flex flex-col items-center justify-center mt-5 text-center text-gray-800 font-open-sans">
         <span className="font-semibold">
-          Oliver <sup>®</sup> — Comparativa React Native & Ionic
+          Oliver <sup>®</sup> | Comparativa: React Native & Ionic
         </span>
         <span>
           Desarrollado por{" "}
